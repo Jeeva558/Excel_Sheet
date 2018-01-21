@@ -84,17 +84,7 @@ public class NewServlet extends HttpServlet {
                 header.getCell(3).setCellStyle(style);
                 
                 }
-                Row row = sheet.createRow(++rowCount);
-                
-//                cell = row.createCell(0);
-//                cell.setCellValue(name);
-//                cell = row.createCell(1);
-//                cell.setCellValue(id);
-//                cell = row.createCell(2);
-//                cell.setCellValue(date);
-//                cell = row.createCell(3);
-//                cell.setCellValue(workDescp);
-                
+                Row row = sheet.createRow(++rowCount);         
                 ArrayList<String> arraylist=new ArrayList<String>();
                 arraylist.add(name);
                 arraylist.add(id);
